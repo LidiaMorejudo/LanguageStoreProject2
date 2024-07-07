@@ -44,3 +44,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.centre-piece { /* Centering in the middle of the page */
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px; 
+}
