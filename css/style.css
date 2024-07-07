@@ -36,17 +36,58 @@ header nav ul li a {
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    display: flex;
+    flex-direction: column; /* Align content in a column */
+    align-items: center; /* Center horizontally */
+    color: #ec1c24;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex; /* Display icons horizontally */
+  }
+  
+  .social-networks i {
+    font-size: 150%;
+    margin: 1% 13px; /* More space between the items */
+    padding: 2%;
+    color: #ec1c24;
+  }
+  
+  footer p {
+    font-size: 80%;
+    font-weight: bold;
+  }
+
 
 .centre-piece { /* Centering in the middle of the page */
     display: flex;
     justify-content: center;
     padding: 50px 200px; 
 }
+
+/* Timetable, calendar */
+
+#timetable, 
+#timetable th, 
+#timetable td {
+    border: 1px solid black;
+}
+
+#timetable 
+ {
+    width: 100% 
+}
+
+#timetable th, 
+#timetable td {
+    width: 14.28%;
+    height: 30 %;
+}
+
+.pagetitle {
+    color: black;
+    text-align: center;
+    margin: 100px; /* Adjust the margin as needed */
+  }
