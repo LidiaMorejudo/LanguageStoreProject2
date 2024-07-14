@@ -90,7 +90,23 @@ footer p {
     color: orange;
 }
 
-/* Find a tutor page */
+
+/*Find a tutor page */
+
+.tutor-image-container {
+    width: 20px;
+    height: auto;
+    overflow: hidden;
+}
+
+.tutor-image-container img {
+    width: 100%;
+    height: auto
+    max-width: 100%;
+}
+
+
+/* Find classes page */
 
 #information-findclasses {
     display: flex;
@@ -117,6 +133,7 @@ footer p {
         max-width: 100%; /* Ensure the image scales down with the container */
     }
 }
+
 
 .centre-piece { /* Centering in the middle of the page */
     display: flex;

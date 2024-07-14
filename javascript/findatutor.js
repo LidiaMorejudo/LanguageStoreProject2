@@ -68,7 +68,9 @@ function displayResults(results) {
               <p>Native language: ${tutor.nativeLanguage}</p>
               <p>Level taught: ${tutor.level.join(', ')}</p>
               <p>Information about the tutor: ${tutor.info}</p>
-              <img src="images/${tutor.image}" alt="${tutor.name}">
+                <div class="tutor-image-container">
+                <img src="images/${tutor.image}" alt="${tutor.name}">
+                </div>
           `;
 
           resultsContainer.appendChild(tutorDiv);
