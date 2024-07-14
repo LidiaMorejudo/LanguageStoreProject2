@@ -75,68 +75,9 @@ const lesson = [
     "Beginner", "Intermediate", "Advanced", "Conversation"
 ];
 
-// Finding a tutor page
 
-const tutors = [
-    { 
-        name: 'Tutor 1', 
-        nativeLanguage: 'English', 
-        level: ['Beginner', 'Intermediate'], 
-        info: 'Experienced tutor...', 
-        picture: 'images/tutor1.jpg' 
-    },
-    { 
-        name: 'Tutor 2', 
-        nativeLanguage: 'French', 
-        level: ['Intermediate', 'Conversation'], 
-        info: 'Native French speaker...', 
-        picture: 'images/tutor2.jpg' 
-    }
-];
 
-document.getElementById('tutorSearchForm').addEventListener('submit', function(event) {
-    event.preventDefault();
 
-    const selectedLanguage = document.getElementById('nativeLanguage').value;
-    const selectedLevel = document.getElementById('level').value;
 
-    const filteredTutors = tutors.filter(tutor => {
-        const matchesLanguage = selectedLanguage === '' || tutor.nativeLanguage === selectedLanguage;
-        const matchesLevel = selectedLevel === '' || tutor.level.includes(selectedLevel);
-        return matchesLanguage && matchesLevel;
-    });
 
-    displayTutors(filteredTutors);
-});
 
-function displayTutors(tutors) {
-    const resultsContainer = document.getElementById('tutorResults');
-    resultsContainer.innerHTML = '';
-
-    if (tutors.length === 0) {
-        resultsContainer.innerHTML = '<p>No tutors found</p>';
-        return;
-    }
-
-    tutors.forEach(tutor => {
-        const tutorCard = document.createElement('div');
-        tutorCard.classList.add('tutor-card');
-
-        const tutorImage = document.createElement('img');
-        tutorImage.src = tutor.picture;
-        tutorImage.alt = tutor.name;
-
-        const tutorInfo = document.createElement('div');
-        tutorInfo.innerHTML = `
-            <h3>${tutor.name}</h3>
-            <p><strong>Native Language:</strong> ${tutor.nativeLanguage}</p>
-            <p><strong>Levels:</strong> ${tutor.level.join(', ')}</p>
-            <p>${tutor.info}</p>
-        `;
-
-        tutorCard.appendChild(tutorImage);
-        tutorCard.appendChild(tutorInfo);
-
-        resultsContainer.appendChild(tutorCard);
-    });
-}

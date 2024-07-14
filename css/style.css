@@ -7,13 +7,21 @@
     box-sizing: border-box;
 }
 
+strong {
+    color: orange;
+}
+
+h2 {
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
-    color: #fff;
+    background: white;
     padding: 1rem;
+    padding-bottom: 1.5rem;
     position: fixed; /* Make the header fixed */
     top: 0;
     width: 100%;
@@ -30,7 +38,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: black
     text-decoration: none;
 }
 
@@ -38,6 +46,8 @@ header nav ul li a {
 #logo {
     height: 50px;
 }
+
+
 
 body {
     display: flex;
@@ -70,29 +80,61 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #ec1c24;
+    color: orange;
     font-size: 150%;
 }
 
 footer p {
     font-size: 80%;
     font-weight: bold;
+    color: orange;
 }
 
 /* Find a tutor page */
 
+#information-findclasses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 120px 70px 120px;
+}
+
+#information-findclasses img {
+    max-width: 100%; /* Ensures the image scales down with the container */
+    height: auto; /* Maintains the aspect ratio */
+    width: 500px; /* Adjust this value as needed */
+}
+
+@media (max-width: 768px) {
+    #information-findclasses {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #information-findclasses img {
+        width: 100%; /* Adjust this value as needed */
+        max-width: 100%; /* Ensure the image scales down with the container */
+    }
+}
+
 .centre-piece { /* Centering in the middle of the page */
     display: flex;
     justify-content: center;
-    padding: 50px 200px; 
+    padding: 30px 200px; 
 }
 
 /* Timetable, calendar */
+
+#Daysoftheweek {
+    color:orange;
+}
 
 #timetable, 
 #timetable th, 
 #timetable td {
     border: 1px solid black;
+    text-align: center;
 }
 
 #timetable 
@@ -103,14 +145,16 @@ footer p {
 #timetable th, 
 #timetable td {
     width: 14.28%;
-    height: 30 %;
+    height: 50 %;
 }
 
 .pagetitle {
     color: black;
     text-align: center;
-    margin: 100px; /* Adjust the margin as needed */
+    margin: 100px 0px 10px 0px; /* Adjust the margin as needed */
+    padding: 10px 50px 3px 50px;
   }
+
 
   /* Find a tutor */
 
@@ -125,3 +169,69 @@ footer p {
     max-width: 100px;
     margin-right: 16px;
 }
+
+/* Contact */
+
+.signup-form {
+    margin: 0 auto; /* Center the form horizontally */
+    max-width: 700px; /* Set the maximum width for the form */
+    padding: 30px; /* Add padding around the content */ 
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .signup-form fieldset {
+    border: none; /* Remove the border from the fieldset */
+  }
+
+
+  .signup-form fieldset label {
+    display: block; /* Make labels display as block elements */
+    margin-bottom: 10px; /* Add space below each label */
+  }
+  
+  .signup-form fieldset input[type="text"],
+  .signup-form fieldset input[type="email"],
+  .signup-form fieldset input[type="tel"],
+  .signup-form fieldset select,
+  .signup-form fieldset textarea {
+    width: 100%; /* Make inputs take up full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add space below each input */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+
+  #radiolabels label {
+    color: black;
+  }
+  
+  .signup-form textarea {
+      margin-bottom: 20px; /* adjust this value for larger spacing */
+      width: 100%; /* Make inputs take up full width */
+  }
+  
+  #contactform button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Add space above the button */
+  }
+   
+  #contactform button[type="submit"]:hover {
+    background-color: red;
+  }
+
+  #title-responsecontact {
+    color: orange;
+  }
+  
+  #text-responsecontact {
+    display: flex;
+    align-items: center;
+    padding: 70px 120px 250px 120px;
+  }

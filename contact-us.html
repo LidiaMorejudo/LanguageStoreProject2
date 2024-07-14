@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Language Store</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/LanguageStoreLogo.png">
     <script src="https://kit.fontawesome.com/71fe1c4b0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,9 +25,46 @@
         </nav>
     </header>
 
-    <main>
-        Contact us
-    </main>
+    <div  class="pagetitle">
+        <h1>Get in touch</h1>
+    </div>
+
+
+    <section id="formcontainer">
+        <form class="signup-form" id="contactform">
+            <br><br>
+            <fieldset>
+                <label for="fname">Full name:</label>
+                <input type="text" id="fname" name="fname" required placeholder="Full Name" autocomplete="off"><br><br>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" required placeholder="email@gmail.com" autocomplete="off"><br><br>
+                <label for="phonenumber">Enter your phone number:</label>
+                <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" placeholder="00000-000-000" autocomplete="off"><br><br>
+
+            </fieldset id="radiolabels">
+                <br>
+                <p>What level(s) are you interested in?:</p><br>
+                <input type="radio" id="beginners" name="level" value="Beginners" autocomplete="off">
+                <label for="beginners">Beginners</label><br>
+                <input type="radio" id="Intermediate" name="level" value="Intermediate" autocomplete="off">
+                <label for="Intermediate">Intermediate</label><br>
+                <input type="radio" id="Advanced" name="level" value="Advanced" autocomplete="off">
+                <label for="Advanced">Advanced</label><br>
+                <input type="radio" id="Conversation" name="level" value="Conversation" autocomplete="off">
+                <label for="Conversation">Conversation</label><br>
+                <input type="radio" id="Private" name="level" value="Private" autocomplete="off">
+                <label for="Private">Private Lessons</label><br> <br>
+  
+            <label for="otherinformation">Any other information:</label><br><br>
+  
+            <textarea id="otherinformation" name="otherinformation" rows="4" cols="50" placeholder="Any other information" autocomplete="off">
+          </textarea><br>
+
+            
+          <button type="submit" id="contactbutton">Submit</button>
+
+        </form>
+    </section>
 
     <footer>
         <div class="social-icons">
@@ -42,10 +80,6 @@
         <p>&copy; The Language Store 2024 all rights reserved</p>
     </footer>
 
-
-
-
-
-    <script src="javascript/java.js"></script>
+    <script src="javascript/javacontactpage.js"></script>
 </body>
 </html>
