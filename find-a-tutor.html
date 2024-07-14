@@ -28,33 +28,35 @@
       <h1>Find more about our tutors</h1>
   </div>
 
+    <div class="centre-piece"> 
+      <section class="search-form">
+          <form id="tutorSearchForm">
+              <div class="form-group">
+                  <label for="nativeLanguage">Native Language</label>
+                  <select id="nativeLanguage" class="form-control">
+                      <option value="" selected>Select a language</option>
+                      <option value="English">English</option>
+                      <option value="Spanish">Spanish</option>
+                  </select>
+              </div>
 
-  <div class="centre-piece"> 
-    <section class="search-form">
-        <form id="tutorSearchForm">
-          <div class="form-group">
-            <label for="nativeLanguage">Native Language</label>
-            <select id="nativeLanguage" class="form-control">
-              <option value="" selected>Select a language</option>
-              <option value="English">English</option>
-              <option value="Spanish">Spanish</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="level">Level</label>
-            <select id="level" class="form-control">
-              <option value="" selected>Select a level</option>
-              <option value="Beginner">Beginner</option>
-              <option value="Intermediate">Intermediate</option>
-              <option value="Advanced">Advanced</option>
-              <option value="Conversation">Advanced</option>
-            </select>
-          </div>
-          <button type="submit" class="btn-primary">Search</button>
-        </form>
+              <div class="form-group">
+                  <label for="level">Level</label>
+                  <select id="level" class="form-control">
+                      <option value="" selected>Select a level</option>
+                      <option value="Beginner">Beginner</option>
+                      <option value="Intermediate">Intermediate</option>
+                      <option value="Advanced">Advanced</option>
+                      <option value="Conversation">Conversation</option>
+                  </select>
+              </div>
+              <button type="submit" class="btn-primary">Search</button>
+          </form>
       </section>
-    </div>
+      <section id="results"></section>
+  </div>
+
+
     <footer>
         <div class="social-icons">
             <ul style="list-style-type:none;" class="social-networks">
