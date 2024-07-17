@@ -33,7 +33,7 @@ const tutors = [
       nativeLanguage: 'Spanish',
       level: ['Conversation'],
       info: 'Language enthusiast and experienced tutor.',
-      image: 'tutor5.jpg'
+      image: 'CarmenMaura.jpg'
   }
 ];
 

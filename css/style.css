@@ -94,7 +94,7 @@ footer p {
 /*Find a tutor page */
 
 .tutor-image-container {
-    width: 20px;
+    width: 100px;
     height: auto;
     overflow: hidden;
 }
@@ -172,20 +172,6 @@ footer p {
     padding: 10px 50px 3px 50px;
   }
 
-
-  /* Find a tutor */
-
-  .tutor-card {
-    border: 1px solid #ccc;
-    padding: 16px;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-}
-.tutor-card img {
-    max-width: 100px;
-    margin-right: 16px;
-}
 
 /* Contact */
 
