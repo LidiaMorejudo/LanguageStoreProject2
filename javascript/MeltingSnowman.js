@@ -1,37 +1,41 @@
-// Array containing the words for the game
-const words = [
-    'UVAS',
-    'MANGO',
-    'KIWI',
-    'COL',
-    'NAVO',
-    'FRESA',
-    'MELON',
-    'PERA'
-  ];
+// Dictionary containing words and their definitions
+const wordsWithDefinitions = {
+  'PATATA': 'A starchy plant tuber which is one of the most important food crops, cooked and eaten as a vegetable.',
+  'MANGO': 'A fleshy yellowish-red tropical fruit that is eaten ripe or used green for pickles or chutneys.',
+  'MANZANA': 'A sweet fruit produced by an apple tree (Malus domestica).',
+  'MELOCOTON': 'A peach, a round stone fruit with juicy yellow flesh and downy pinkish-yellow skin.',
+  'ARANDANO': 'A small, round fruit of a shrub that has a blue or black color and is often eaten as a berry.',
+  'FRESA': 'A sweet soft red fruit with a seed-studded surface.',
+  'MELON': 'A large round fruit with sweet pulpy flesh and many seeds.',
+  'PLATANO': 'A tropical fruit which is usually longer than a banana and is often cooked before being eaten.'
+};
 
-  
 // Define the maximum number of incorrect guesses allowed
 const maxWrongGuesses = 6;
 
 let wordToGuess = '';
 let guessedLetters = [];
 let wrongGuesses = 0;
-let imageCount = 1;
+let wordDefinition = '';
 
-// Select random word from the list
+// Select random word and its definition from the dictionary
 function selectRandomWord() {
-  return words[Math.floor(Math.random() * words.length)];
+  const keys = Object.keys(wordsWithDefinitions);
+  const randomKey = keys[Math.floor(Math.random() * keys.length)];
+  return { word: randomKey, definition: wordsWithDefinitions[randomKey] };
 }
 
 // Initialize the game
 function initializeGame() {
-  wordToGuess = selectRandomWord();
+  const selected = selectRandomWord();
+  wordToGuess = selected.word;
+  wordDefinition = selected.definition;
   guessedLetters = Array(wordToGuess.length).fill('_');
   wrongGuesses = 0;
 
-  // Update the word display
+  // Update the word and definition display
   updateWordDisplay();
+  updateDefinitionDisplay(); // Ensure this function is called here
 
   updateMeltingSnowmanGraphic();
 
@@ -61,6 +65,12 @@ function initializeGame() {
 function updateWordDisplay() {
   const wordContainer = document.querySelector('.word');
   wordContainer.innerText = guessedLetters.join(' ');
+}
+
+// Update the definition display
+function updateDefinitionDisplay() {
+  const definitionContainer = document.querySelector('.definition');
+  definitionContainer.innerText = wordDefinition;
 }
 
 // Handle a letter guess
