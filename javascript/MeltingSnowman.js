@@ -93,8 +93,11 @@ function handleGuess(letter) {
 // Update the Melting Snowman graphic
 function updateMeltingSnowmanGraphic() {
   const meltingSnowmanContainer = document.querySelector('.MeltingSnowman');
-  meltingSnowmanContainer.innerHTML = `<img src="images/MeltingSnowman${imageCount}.png" alt="MeltingSnowman ${imageCount}">`;
-  imageCount++;
+  if (wrongGuesses <= maxWrongGuesses) {
+    meltingSnowmanContainer.innerHTML = `<img src="images/MeltingSnowman${wrongGuesses}.png" alt="Melting Snowman ${wrongGuesses}">`;
+  } else {
+    meltingSnowmanContainer.innerHTML = `<img src="images/gameover.png" alt="Game Over">`;
+  }
 }
 
 // Check if the game has been won or lost
