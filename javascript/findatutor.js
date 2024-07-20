@@ -4,35 +4,35 @@ const tutors = [
       name: 'John Doe',
       nativeLanguage: 'English',
       level: ['Beginner', 'Conversation'],
-      info: 'Experienced tutor with a passion for teaching languages.',
+      info: 'John is an experienced tutor with a passion for teaching languages. As a native English speaker, he excels at helping beginners navigate the complexities of Spanish, ensuring a solid foundation for further learning. His engaging conversation classes are perfect for those looking to improve their speaking skills in a supportive and motivating environment.ced tutor with a passion for teaching languages.',
       image: 'John Doe.jpg'
   },
   {
       name: 'Maria Garcia',
       nativeLanguage: 'Spanish',
       level: ['Intermediate', 'Conversation'],
-      info: 'Professional language tutor with years of experience.',
+      info: 'Maria is a professional language tutor with years of experience in teaching Spanish. As a native Spanish speaker, she specializes in guiding intermediate learners towards fluency and confidence. Her conversation classes are designed to be immersive and interactive, providing students with the tools they need to excel in real-world situations.',
       image: 'MariaGarcia.jpg'
   },
   {
       name: 'Pierre Dupont',
       nativeLanguage: 'English',
       level: ['Advanced', 'Conversation'],
-      info: 'Language enthusiast and experienced tutor.',
+      info: 'Pierre is a language enthusiast and experienced tutor who loves helping advanced students perfect their Spanish skills. With a strong command of both English and Spanish, he offers challenging conversation classes that push learners to achieve their highest potential. His dynamic teaching style makes every session both enjoyable and educational.',
       image: 'PierreDupont.jpg'
   },
   {
       name: 'Belen Rueda',
       nativeLanguage: 'Spanish',
       level: ['Conversation'],
-      info: 'Language enthusiast and experienced tutor.',
+      info: 'Belen is a passionate language enthusiast and experienced tutor dedicated to helping students improve their Spanish conversation skills. As a native Spanish speaker, she provides an authentic learning experience that focuses on practical communication and cultural understanding. Her friendly and approachable teaching style ensures that students feel comfortable and confident while speaking Spanish.',
       image: 'BelenRueda.jpg'
   },
   {
       name: 'Carmen Maura',
       nativeLanguage: 'Spanish',
       level: ['Conversation'],
-      info: 'Language enthusiast and experienced tutor.',
+      info: 'Carmen is a dedicated and experienced tutor with a deep love for the Spanish language. Her conversation classes are ideal for students who want to practice and enhance their speaking abilities in a natural, engaging setting. With her native proficiency and warm teaching approach, Carmen helps students gain the confidence and skills needed to communicate effectively in Spanish.',
       image: 'CarmenMaura.jpg'
   }
 ];
