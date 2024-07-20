@@ -1,10 +1,10 @@
 // Array containing the words for the game
 const words = [
-    'NARANJA',
-    'TOMATE',
-    'MANZANA',
-    'MELOCOTON',
-    'PLATANO',
+    'UVAS',
+    'MANGO',
+    'KIWI',
+    'COL',
+    'NAVO',
     'FRESA',
     'MELON',
     'PERA'
