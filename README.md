@@ -14,9 +14,13 @@ PLANNING
 
 Home Page WIREFRAMES
 
-This is the wireframe for the front page. Showing the icon and the title, wiht game for the Snowman to make the page more attractive to prospective students.
+This is the wireframe for the front page. Showing the icon and the title, with game for the Snowman to make the page more attractive to prospective students.
 
 ![ Wireframes Home Page](/images/wireframehomepage.png)
+
+I prepared also the wireframes with the expected look on mobile phones and tablets. In mobile phones the centre text should appear vertically. So, it should narrow on the sides and grow vertically to fit better in the screen and be more readable. On tablets it should appear horizontally as in the computer screen but smaller. 
+
+![ Wireframes Home Page Phones and Tablets](/images/wireframehomepagephonetablet.png)
 
 An issue I encountered while building this project, is that although the calendar worked, when I was trying to use javascript for another part, the submit button of the contact form this did not work. The idea is that when clicking submit a thank you message would come up. When trying to build this functionality, it did not work. The message was that the button did not exist. I reached out to a tutor from the Code Institute, who suggested this was because there was a conflict in the javascript code, because it was all on one file. I took up her suggestion to create different files for the different javascript functionalities, and naming them to match the with the page they go with. This seemed to fix the issue. 
 
