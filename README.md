@@ -22,6 +22,34 @@ I prepared also the wireframes with the expected look on mobile phones and table
 
 ![ Wireframes Home Page Phones and Tablets](/images/wireframehomepagephonetablet.png)
 
+Find a Tutor WIREFRAMES
+
+The second page is a Find a Tutor page. In this page prospective students can peruse the list of tutors. There is a simple form with options to select, native language and level. Selected the preferred options will bring up the description of the tutor(s) that meet that criteria. The students can then have an idea of the background of the tutors working for the school.
+
+![ Wireframes Find a Tutor](/images/wireframefindatutor.png)
+
+Find classes online Spanish classes online WIREFRAMES
+
+This page gives general information about the school and the classes, presenting an attractive image, and also provides more specific informationa bout when the classes are.
+
+Scrolling down the prospective student will see a calendar for next year. This is a 12 month calendar, the user will see the information for one month, but by clicking on the left and right arrows will move to a different month.
+
+![ Wireframes Find a Tutor](/images/wireframespanishclassesonline.png)
+
+Contact WIREFRAMES
+
+Through this page prospective students can get in touch with the team for more information. The form will ask for basic contact information, name, phone number, email, level and there will be a free text box where the prospective student can type in further details or a question they would like answered. 
+
+![ Wireframes Find a Tutor](/images/wireframesgetintouch.png)
+
+Book a class WIREFRAMES
+
+![ Wireframes Find a Tutor](/images/wireframespanishclassesonline.png)
+
+The purpose of this page is to allow prospective students to actively send a booking for their chosen class. They will pick their level and the time. When selecting a level, the options for the times will change to those for that level. Then when selecting the number of lessons the price will be calculated automatically. 
+By clicking on submit the information would be sent to the school and they would get in touch with payment details. The student will see a message explaining this.
+
+
 An issue I encountered while building this project, is that although the calendar worked, when I was trying to use javascript for another part, the submit button of the contact form this did not work. The idea is that when clicking submit a thank you message would come up. When trying to build this functionality, it did not work. The message was that the button did not exist. I reached out to a tutor from the Code Institute, who suggested this was because there was a conflict in the javascript code, because it was all on one file. I took up her suggestion to create different files for the different javascript functionalities, and naming them to match the with the page they go with. This seemed to fix the issue. 
 
 Another constant issue I've been having with any project on Gitpod is that quite often the commands to commit changes won't work. The only way to sort his is clearing cache and realoading, although sometimes I have to do this 2 or 3 times for it to work. This is a big issue as it interrups the flow, and sometimes I can't commit till the next day, with the danger of "forgetting" what all the changes were.
