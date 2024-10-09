@@ -165,6 +165,17 @@ body {
     max-width: 100%;
 }
 
+.buttoncontainer {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+#resetButton button {
+  background-color: #ba181f;
+}
+
+/* End of Index page */
 
 /* Find classes page */
 

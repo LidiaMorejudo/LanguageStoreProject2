@@ -135,3 +135,8 @@ function checkWinOrLose() {
 
 // Initialize the game when the page loads
 window.addEventListener('load', initializeGame);
+
+// Add event listener for the reset button
+document.getElementById('resetButton').addEventListener('click', function() {
+  initializeGame();
+});
