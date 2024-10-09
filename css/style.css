@@ -151,6 +151,38 @@ body {
     align-items: center;
   }
 
+  .buttoncontainer {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+   /* Centering the button vertically and horizontally, code used from W3Schools */
+  .controls {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  #resetButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #ec1c24;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #resetButton:hover {
+    background-color: #0056b3; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
+  
+  /* End of Index page */
+
 /*Find a tutor page */
 
 .tutor-image-container {
@@ -165,17 +197,7 @@ body {
     max-width: 100%;
 }
 
-.buttoncontainer {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
 
-#resetButton button {
-  background-color: #ba181f;
-}
-
-/* End of Index page */
 
 /* Find classes page */
 
