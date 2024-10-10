@@ -47,7 +47,13 @@ header nav ul li a {
     height: 50px;
 }
 
+.pagetitle {
+  border: 3px solid green;
+}
 
+.paragraph {
+  border: 3px solid green;
+}
 
 body {
     display: flex;
@@ -102,6 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    border: 3px solid green;
   }
   
   .container img {
