@@ -55,3 +55,5 @@ An issue I encountered while building this project, is that although the calenda
 Another constant issue I've been having with any project on Gitpod is that quite often the commands to commit changes won't work. The only way to sort his is clearing cache and realoading, although sometimes I have to do this 2 or 3 times for it to work. This is a big issue as it interrups the flow, and sometimes I can't commit till the next day, with the danger of "forgetting" what all the changes were.
 
 Melting Snowman: I decided to include a game on the site linked to Spanish learning, as a way to attract new students and to show that our classes are fun. I used https://www.freecodecamp.org/news/how-to-code-a-simple-game/ as a base for this game.
+
+Tutorial for creating registration forms https://www.tutorialstonight.com/registration-form-in-html#:~:text=Here%20is%20the%20code%20for%20the%20registration%20form,for%3D%22email%22%3EEmail%3A%3C%2Flabel%3E%20%3Cinput%20type%3D%22email%22%20id%3D%22email%22%20name%3D%22email%22%20placeholder%3D%22Your%20email..%22%20required%3E

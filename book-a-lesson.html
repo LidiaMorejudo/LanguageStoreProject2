@@ -33,6 +33,57 @@
     <div>
         here the form to book a lesson
     </div>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="" method="post">
+          <div class="input-field">
+            <i class="fa fa-user"></i>
+            <input type="text" name="name" placeholder="First Name" />
+          </div>
+          <div class="input-field">
+            <i class="fa fa-user"></i>
+            <input type="text" name="name" placeholder="Last Name" required />
+          </div>
+          <div class="input-field">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input-field">
+            <i class="fa fa-lock"></i>
+            <input type="password" name="password" placeholder="Password" required />
+          </div>
+          <div class="input-field">
+            <i class="fa fa-lock"></i>
+            <input type="password" name="password" placeholder="Re-type Password" required />
+          </div>
+    
+          <div class="input-field">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+          </div>
+          <div class="input-field select-option">
+            <select>
+              <option>Select a country</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+            <div class="select-arrow"></div>
+          </div>
+          <div class="input-field">
+            <input type="checkbox" id="terms">
+            <label for="terms">I agree with terms and conditions</label>
+          </div>
+          <div class="input-field">
+            <input type="checkbox" id="newsletter">
+            <label for="newsletter">I want to receive the newsletter</label>
+          </div>
+          <input class="button" type="submit" value="Register">
+        </form>
+      </div>
+    </body>
     
 
     <footer>

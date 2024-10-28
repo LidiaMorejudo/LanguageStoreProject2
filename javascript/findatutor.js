@@ -31,10 +31,18 @@ const tutors = [
   {
       name: 'Carmen Maura',
       nativeLanguage: 'Spanish',
-      level: ['Conversation'],
+      level: ['Conversation','Intermediate'],
       info: 'Carmen is a dedicated and experienced tutor with a deep love for the Spanish language. Her conversation classes are ideal for students who want to practice and enhance their speaking abilities in a natural, engaging setting. With her native proficiency and warm teaching approach, Carmen helps students gain the confidence and skills needed to communicate effectively in Spanish.',
       image: 'CarmenMaura.jpg'
   }
+  
+  {
+    name: 'Pepita Pulgarcita',
+    nativeLanguage: 'Spanish',
+    level: ['Conversation','Beginner','Intermediate'],
+    info: 'Carmen is a dedicated and experienced tutor with a deep love for the Spanish language. Her conversation classes are ideal for students who want to practice and enhance their speaking abilities in a natural, engaging setting. With her native proficiency and warm teaching approach, Carmen helps students gain the confidence and skills needed to communicate effectively in Spanish.',
+    image: 'CarmenMaura.jpg'
+}
 ];
 
 document.getElementById('tutorSearchForm').addEventListener('submit', function(event) {
