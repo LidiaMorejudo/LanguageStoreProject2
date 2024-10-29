@@ -85,3 +85,33 @@ function displayResults(results) {
       });
   }
 }
+
+// Array to bring up tutors details in book a class
+
+function showAvailableTutors() {
+    const level = document.getElementById('tutorLevel').value;
+    const resultsContainer = document.getElementById('tutorResults');
+    resultsContainer.innerHTML = '';
+  
+    if (level) {
+      const availableTutors = tutors.filter(tutor => tutor.level.includes(level));
+  
+      if (availableTutors.length === 0) {
+        resultsContainer.innerHTML = '<p>No tutors available for this level.</p>';
+      } else {
+        availableTutors.forEach(tutor => {
+          const tutorDiv = document.createElement('div');
+          tutorDiv.classList.add('tutor');
+          tutorDiv.innerHTML = `
+            <h2>Tutor's Name: ${tutor.name}</h2>
+            <p>Native Language: ${tutor.nativeLanguage}</p>
+            <p>Information about the Tutor: ${tutor.info}</p>
+            <div class="tutor-image-container">
+              <img src="images/${tutor.image}" alt="${tutor.name}">
+            </div>
+          `;
+          resultsContainer.appendChild(tutorDiv);
+        });
+      }
+    }
+  }
