@@ -57,3 +57,9 @@ Another constant issue I've been having with any project on Gitpod is that quite
 Melting Snowman: I decided to include a game on the site linked to Spanish learning, as a way to attract new students and to show that our classes are fun. I used https://www.freecodecamp.org/news/how-to-code-a-simple-game/ as a base for this game.
 
 Tutorial for creating registration forms https://www.tutorialstonight.com/registration-form-in-html#:~:text=Here%20is%20the%20code%20for%20the%20registration%20form,for%3D%22email%22%3EEmail%3A%3C%2Flabel%3E%20%3Cinput%20type%3D%22email%22%20id%3D%22email%22%20name%3D%22email%22%20placeholder%3D%22Your%20email..%22%20required%3E
+
+
+ISSUE AND CODE TESTING
+
+FINDA A TUTOR PAGE
+I added some information in the findatutor javascript file. Specifically, a new tutor and code for also the book a lesson page. However, then the form on the find a tutor page stopped working. It did not display the tutors details. I thought it was because of the added javascript code. However, even when removed it still did not work. After quering with online AI support, the answer was that I had missed a comma between two items of the tutor array. Once this sorted the page worked again.

@@ -1,19 +1,27 @@
 // Array to hold tutor details
 const tutors = [
   {
-      name: 'John Doe',
-      nativeLanguage: 'English',
-      level: ['Beginner', 'Conversation'],
-      info: 'John is an experienced tutor with a passion for teaching languages. As a native English speaker, he excels at helping beginners navigate the complexities of Spanish, ensuring a solid foundation for further learning. His engaging conversation classes are perfect for those looking to improve their speaking skills in a supportive and motivating environment.ced tutor with a passion for teaching languages.',
-      image: 'John Doe.jpg'
-  },
-  {
-      name: 'Maria Garcia',
-      nativeLanguage: 'Spanish',
-      level: ['Intermediate', 'Conversation'],
-      info: 'Maria is a professional language tutor with years of experience in teaching Spanish. As a native Spanish speaker, she specializes in guiding intermediate learners towards fluency and confidence. Her conversation classes are designed to be immersive and interactive, providing students with the tools they need to excel in real-world situations.',
-      image: 'MariaGarcia.jpg'
-  },
+    name: 'John Doe',
+    nativeLanguage: 'English',
+    level: ['Beginner', 'Conversation'],
+    info: 'John is an experienced tutor with a passion for teaching languages. As a native English speaker, he excels at helping beginners navigate the complexities of Spanish, ensuring a solid foundation for further learning. His engaging conversation classes are perfect for those looking to improve their speaking skills in a supportive and motivating environment.',
+    image: 'JohnDoe.jpg',
+    classes: [
+        { level: 'Beginner', day: 'Tuesday', time: '6pm to 7pm' },
+        { level: 'Conversation', day: 'Sunday', time: '3pm to 4pm' }
+    ]
+},
+{
+  name: 'Maria Garcia',
+  nativeLanguage: 'Spanish',
+  level: ['Intermediate', 'Conversation'],
+  info: 'Maria is a professional language tutor with years of experience in teaching Spanish. She specializes in guiding intermediate learners towards fluency and confidence. Her conversation classes are immersive and interactive.',
+  image: 'MariaGarcia.jpg',
+  classes: [
+      { level: 'Intermediate', day: 'Wednesday', time: '5pm to 6pm' },
+      { level: 'Conversation', day: 'Saturday', time: '2pm to 3pm' }
+  ]
+},
   {
       name: 'Pierre Dupont',
       nativeLanguage: 'English',
@@ -86,3 +94,49 @@ function displayResults(results) {
   }
 }
 
+// Array to bring up tutors details in book a class
+
+
+
+function showAvailableTutors() {
+  const level = document.getElementById('tutorLevel').value;
+  const resultsContainer = document.getElementById('tutorResults');
+  resultsContainer.innerHTML = '';
+
+  if (level) {
+      const availableTutors = tutors.filter(tutor => tutor.level.includes(level));
+
+      if (availableTutors.length === 0) {
+          resultsContainer.innerHTML = '<p>No tutors available for this level.</p>';
+      } else {
+          availableTutors.forEach(tutor => {
+              const tutorDiv = document.createElement('div');
+              tutorDiv.classList.add('tutor');
+              
+              let classesHtml = '';
+              tutor.classes.forEach(classInfo => {
+                  if (classInfo.level === level) {
+                      classesHtml += `
+                          <p><strong>Class:</strong> ${classInfo.level} on ${classInfo.day}</p>
+                          <p><strong>Time:</strong> ${classInfo.time}</p>
+                      `;
+                  }
+              });
+
+              tutorDiv.innerHTML = `
+                  <h2>Tutor's Name: ${tutor.name}</h2>
+                  <p>Native Language: ${tutor.nativeLanguage}</p>
+                  <p>Information about the Tutor: ${tutor.info}</p>
+                  <div class="tutor-image-container">
+                    <img src="images/${tutor.image}" alt="${tutor.name}">
+                  </div>
+                  <div class="class-details">
+                    ${classesHtml || '<p>No classes available for this level.</p>'}
+                  </div>
+              `;
+
+              resultsContainer.appendChild(tutorDiv);
+          });
+      }
+  }
+}
