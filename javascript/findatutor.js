@@ -119,6 +119,7 @@ function showAvailableTutors() {
                       classesHtml += `
                           <p><strong>Class:</strong> ${classInfo.level} on ${classInfo.day}</p>
                           <p><strong>Time:</strong> ${classInfo.time}</p>
+                          <button class="book-button" onclick="bookClass('${tutor.name}', '${classInfo.level}', '${classInfo.day}', '${classInfo.time}')">Book</button>
                       `;
                   }
               });
@@ -139,4 +140,9 @@ function showAvailableTutors() {
           });
       }
   }
+}
+
+function bookClass(tutorName, level, day, time) {
+    alert(`You have booked a ${level} class with ${tutorName} on ${day} at ${time}.`);
+    //Message confirming booking
 }
