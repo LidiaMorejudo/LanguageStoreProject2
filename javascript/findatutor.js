@@ -143,6 +143,10 @@ function showAvailableTutors() {
 }
 
 function bookClass(tutorName, level, day, time) {
-    alert(`You have booked a ${level} class with ${tutorName} on ${day} at ${time}.`);
-    //Message confirming booking
+    try {
+        alert(`You have successfully booked a ${level} class with ${tutorName} on ${day} at ${time}.`);
+        // Stop here as we only need to show the confirmation message
+    } catch (error) {
+        console.error("Booking simulation error:", error); // Log error if any unexpected issue arises
+    }
 }
