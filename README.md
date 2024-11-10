@@ -63,3 +63,6 @@ ISSUE AND CODE TESTING
 
 FINDA A TUTOR PAGE
 I added some information in the findatutor javascript file. Specifically, a new tutor and code for also the book a lesson page. However, then the form on the find a tutor page stopped working. It did not display the tutors details. I thought it was because of the added javascript code. However, even when removed it still did not work. After quering with online AI support, the answer was that I had missed a comma between two items of the tutor array. Once this sorted the page worked again.
+
+BOOK A CLASS
+When click to select a specific lesson, a message confirming the booking comes up. However, when clicking okay the page threw an error. 
