@@ -1,26 +1,36 @@
 # LanguageStoreProject2
 
-PURPOSE OF THE WEBSITE
+PURPOSE OF THE WEBSITE for the teachers running The Language Store
 
-The purpose of this website "Language Store" is to promote the Spanish language teaching services of a group of teachers. The website has information about the tutors and the lessons available. Lessons can also be booked through it. 
+The purpose of this website "Language Store" is to promote the Spanish language teaching services of a group of teachers. The website has information about the tutors and the lessons available. Lessons can also be booked through it.
 
-VALUE FOR THE USERS
+VALUE FOR THE PROSPECTIVE USERS
 
-Current students can use the website to contact the school or their tutor, and also to book more lessons. People who are interested in learning Spanish as a foreign language cand find information about the lessons delivered, as well as a bit more about the teachers' background. This can help them decide if they want to learn Spanish with this school or not.
+Current students can use the website to contact the school or their tutor, and also to book more lessons. People who are interested in learning Spanish as a foreign language can find information about the lessons delivered, as well as a bit more about the teachers' background. This can help them decide if they want to learn Spanish with this school or not.
 
 On the find classes page, there is some information regarding the school, and also a calendar showing the dates for regular sessions throughout the year 2025. The functionality of this calendar was built using CSS for the design and javascript to make the days and months match with the right date. 
 
 PLANNING 
 
-Home Page WIREFRAMES
+Homepage WIREFRAMES & Rationnale
 
-This is the wireframe for the front page. Showing the icon and the title, with game for the Snowman to make the page more attractive to prospective students.
+The homepage serves like the front door of hte language school. It needs to feel welcoming and attractive to new students. Making them feel like their goal of learning a language is accessible and somehow fun, moving away from old-fashion ways of learning a language. 
+
+This is why a sort of language game was selected for this introduction to the school. The game is based on the popular word game "Hangman". The traditional long sentences of this game have been changed into only words related to the topic of food. The words have been selected for their simplicity, so anybody starting off in the Spanish language would have come accross them already. 
+
+This is the wireframe for the front page. Showing the icon and the title, this version of the hangman game uses snowmen that lose parts if the student makes mistakes.
 
 ![ Wireframes Home Page](/images/wireframehomepage.png)
 
 I prepared also the wireframes with the expected look on mobile phones and tablets. In mobile phones the centre text should appear vertically. So, it should narrow on the sides and grow vertically to fit better in the screen and be more readable. On tablets it should appear horizontally as in the computer screen but smaller. 
 
+This are the planning stages for the HOMEPAGE
+
 ![ Wireframes Home Page Phones and Tablets](/images/wireframehomepagephonetablet.png)
+
+These are images of how the homepage would appear on different devices:
+
+![ Images of homepage](/images/homepageimages.png)
 
 Find a Tutor WIREFRAMES
 
