@@ -12,7 +12,7 @@ On the find classes page, there is some information regarding the school, and al
 
 PLANNING 
 
-Homepage WIREFRAMES & Rationnale
+Homepage planning, wireframes, images & Rationnale
 
 The homepage serves like the front door of hte language school. It needs to feel welcoming and attractive to new students. Making them feel like their goal of learning a language is accessible and somehow fun, moving away from old-fashion ways of learning a language. 
 
@@ -32,11 +32,15 @@ These are images of how the homepage would appear on different devices:
 
 ![ Images of homepage](/images/homepageimages.png)
 
-Find a Tutor WIREFRAMES
+Find a Tutor planning, wireframes, images & Rationnale
 
-The second page is a Find a Tutor page. In this page prospective students can peruse the list of tutors. There is a simple form with options to select, native language and level. Selected the preferred options will bring up the description of the tutor(s) that meet that criteria. The students can then have an idea of the background of the tutors working for the school.
+The second page is a Find a Tutor page. In this page prospective students can peruse the list of tutors. There is a simple form with options to select, native language and level. Selecting the preferred options will bring up the description of the tutor(s) that meet that criteria. The students can then have an idea of the background of the tutors working for the school.
 
 ![ Wireframes Find a Tutor](/images/wireframefindatutor.png)
+
+These are the images of how the Find a Tutor page would appear on different devices:
+
+![ Wireframes Find a Tutor](/images/findatutorimages.png)
 
 Find classes online Spanish classes online WIREFRAMES
 
