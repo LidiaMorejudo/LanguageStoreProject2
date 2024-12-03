@@ -397,6 +397,28 @@ input[type=submitbooking]:hover {
     padding: 10px 50px 3px 50px;
   }
 
+  .centre-piece {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 30px; /* Adjust padding for better spacing */
+}
+
+@media (max-width: 768px) {
+    .centre-piece {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+    #timetable {
+        width: 100%; /* Ensure the table fits within the screen width */
+        max-width: 100%; /* Prevent it from exceeding its container */
+        overflow-x: auto; /* Add horizontal scrolling if necessary */
+    }
+    #timetable th, 
+    #timetable td {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
+
 
 /* Contact */
 
