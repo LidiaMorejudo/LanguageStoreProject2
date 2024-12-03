@@ -30,7 +30,7 @@ This are the planning stages for the HOMEPAGE
 
 These are images of how the homepage would appear on different devices:
 
-![ Images of homepage](/images/homepageimages.png)
+![ Images of homepage](/images/imageshomepage.png)
 
 Find a Tutor planning, wireframes, images & Rationnale
 
@@ -40,13 +40,15 @@ The second page is a Find a Tutor page. In this page prospective students can pe
 
 These are the images of how the Find a Tutor page would appear on different devices:
 
-![ Wireframes Find a Tutor](/images/findatutorimages.png)
+![ Wireframes Find a Tutor](/images/imagesfindatutor.png)
 
-Find classes online Spanish classes online WIREFRAMES
+Find Spanish classes online planning, wireframes and images
 
 This page gives general information about the school and the classes, presenting an attractive image, and also provides more specific informationa bout when the classes are.
 
-Scrolling down the prospective student will see a calendar for next year. This is a 12 month calendar, the user will see the information for one month, but by clicking on the left and right arrows will move to a different month.
+![ Wireframes Find a Tutor](/images/imagesspanishclassesonline.png)
+
+Scrolling down the page prospective student will see a calendar for next year. This is a 12 month calendar, the user will see the information for one month, but by clicking on the left and right arrows will move to a different month.
 
 ![ Wireframes Find a Tutor](/images/wireframespanishclassesonline.png)
 
@@ -56,13 +58,20 @@ Through this page prospective students can get in touch with the team for more i
 
 ![ Wireframes Find a Tutor](/images/wireframesgetintouch.png)
 
+The contact page is essential for prospective students to get in touch and find out more about the classes, or clear any doubts they might have. 
+
+![ Wireframes Find a Tutor](/images/imagescontact.png)
+
 Book a class WIREFRAMES
 
 ![ Wireframes Find a Tutor](/images/wireframespanishclassesonline.png)
 
-The purpose of this page is to allow prospective students to actively send a booking for their chosen class. They will pick their level and the time. When selecting a level, the options for the times will change to those for that level. Then when selecting the number of lessons the price will be calculated automatically. 
+The purpose of this page is to allow prospective students to actively send a booking for their chosen class. They will pick their level and the time. When selecting a level, the options for the times will change to those for that level. 
 By clicking on submit the information would be sent to the school and they would get in touch with payment details. The student will see a message explaining this.
 
+![ Wireframes Find a Tutor](/images/imagesbookingalesson.png)
+
+ISSUES
 
 An issue I encountered while building this project, is that although the calendar worked, when I was trying to use javascript for another part, the submit button of the contact form this did not work. The idea is that when clicking submit a thank you message would come up. When trying to build this functionality, it did not work. The message was that the button did not exist. I reached out to a tutor from the Code Institute, who suggested this was because there was a conflict in the javascript code, because it was all on one file. I took up her suggestion to create different files for the different javascript functionalities, and naming them to match the with the page they go with. This seemed to fix the issue. 
 
