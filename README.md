@@ -183,23 +183,76 @@ To streamline the booking process, we plan to introduce a payment API, allowing 
 
 A login page will be added for both students and tutors, providing personalized access to booking information, lesson history, and communication features. This will help enhance the user experience by offering greater control and accessibility for all users.
 
+## **Design Choices**
+
+### **Minimalistic and Modern Layout**
+
+The design of the **Language Store** project follows a minimalistic approach to ensure that the interface is clean, intuitive, and easy to navigate. The layout prioritizes the most important elements—such as the class schedules, tutor information, and contact forms—without overwhelming the user with unnecessary details. This design ensures that the content is easily accessible and maintains the focus on key functionalities.
+
+### **Color Scheme**
+
+The color scheme is **neutral and subtle**, with soft tones that contribute to a professional, yet welcoming atmosphere. The goal is to create a sense of calm and focus, allowing the content to stand out without distraction. Highlights and buttons use slightly bolder colors to draw attention to important actions, such as booking a class or contacting the team.
+
+### **Typography**
+
+The typography is chosen to be **clean and readable**, with a sans-serif font that offers modern aesthetics and optimal legibility. The font size and spacing are carefully balanced to ensure that the text is easy to read on all devices, whether on desktops, tablets, or mobile phones.
+
+### **User-Centered Design**
+
+The user experience (UX) is at the core of the project. The design ensures that users can quickly find the information they need—whether it’s about available tutors, lesson schedules, or contact details. Features such as the **calendar for booking lessons** and the **Find a Tutor page** have been carefully crafted to offer an intuitive and seamless experience, reducing friction and making interactions as straightforward as possible.
+
+### **Mobile-Responsive Design**
+
+The website is designed to be fully **responsive**, ensuring that it adapts seamlessly across all devices. On mobile phones, the layout adjusts to provide vertical text and intuitive navigation, while on tablets and desktops, it remains horizontal and more spacious. This approach guarantees a consistent experience for users, regardless of their device.
+
+### **Visual Appeal and Functionality**
+
+The use of **high-quality images** and **subtle animations** enhances the aesthetic appeal of the site, while maintaining the focus on usability. For example, the **Hangman game** on the homepage adds an engaging element for new users, providing an interactive and enjoyable introduction to the school. The Find Spanish Classes Online page is designed with a simple, accessible calendar that allows users to easily view and select their desired class schedule.
+
+## **Challenges and Solutions**
+
+During the development of this project, I encountered a few issues that required troubleshooting:
+
+1. **Contact Form Submit Button Issue:**
+
+Initially, when trying to implement JavaScript functionality for the contact form, I ran into a problem where the submit button was not working. The intended behavior was for a "Thank You" message to appear when the user clicked submit, but instead, I received an error stating that the button did not exist. After consulting with a tutor from the Code Institute, I learned that this issue was likely caused by a JavaScript conflict. Since all the JavaScript code was in one file, it was interfering with the form functionality.
+
+Following the tutor’s advice, I separated the JavaScript code into different files, each corresponding to the specific page it was meant to function with. This approach resolved the issue and allowed the contact form to work as intended.
+
+2. **Responsive Calendar Display:**
+
+When checking the Find Classes page on different devices (https://lidiamorejudo.github.io/LanguageStoreProject2/time-table.html), I noticed that the calendar was not centered on smaller screens; it appeared aligned to the right. To fix this, I applied specific CSS styles to the calendar table, adjusting the padding to make it responsive to different screen sizes. I also made sure the font size adjusted accordingly, appearing smaller on smaller screens for better readability.
+
+3. **Issue with Find a Tutor Page Form**
+
+I added some new information to the findatutor.js file, including a new tutor and additional code for the Book a Lesson page. However, after making these changes, the form on the Find a Tutor page stopped working, and the tutor details were no longer displayed. Initially, I thought the issue was caused by the new JavaScript code I had added. Even after removing the added code, the problem persisted.
+
+After seeking help from online AI support, I discovered that the issue was due to a missing comma between two items in the tutor array. Once I fixed this, the page functioned properly again, and the tutor details were displayed as expected.
+
+## **Credits, Inspiration, and Sources Consulted**
+
+**Melting Snowman Game:**
+
+To make the website more engaging for prospective students and showcase the fun aspect of our language classes, I included a game related to Spanish learning. I used this tutorial from FreeCodeCamp as a foundation to create the Melting Snowman game.
+
+**Registration Form Tutorial:**
+
+For the registration form on the website, I followed the instructions provided in this tutorial to help create the form’s structure and functionality.
+
+**Dropdown List Creation:**
+
+For implementing dropdown lists dynamically, I referred to the guide on GeeksforGeeks to help create the dropdown options based on array values in JavaScript.
+
+**Creating a Dynamic Calendar:**
+
+To build the dynamic calendar on the website, I consulted this tutorial on GeeksforGeeks for guidance on creating a responsive and interactive calendar using HTML, CSS, and JavaScript.
 
 
-ISSUES
+Testing
 
-An issue I encountered while building this project, is that although the calendar worked, when I was trying to use javascript for another part, the submit button of the contact form this did not work. The idea is that when clicking submit a thank you message would come up. When trying to build this functionality, it did not work. The message was that the button did not exist. I reached out to a tutor from the Code Institute, who suggested this was because there was a conflict in the javascript code, because it was all on one file. I took up her suggestion to create different files for the different javascript functionalities, and naming them to match the with the page they go with. This seemed to fix the issue. 
-
-Another constant issue I've been having with any project on Gitpod is that quite often the commands to commit changes won't work. The only way to sort his is clearing cache and realoading, although sometimes I have to do this 2 or 3 times for it to work. This is a big issue as it interrups the flow, and sometimes I can't commit till the next day, with the danger of "forgetting" what all the changes were.
-
-Melting Snowman: I decided to include a game on the site linked to Spanish learning, as a way to attract new students and to show that our classes are fun. I used https://www.freecodecamp.org/news/how-to-code-a-simple-game/ as a base for this game.
-
-Tutorial for creating registration forms https://www.tutorialstonight.com/registration-form-in-html#:~:text=Here%20is%20the%20code%20for%20the%20registration%20form,for%3D%22email%22%3EEmail%3A%3C%2Flabel%3E%20%3Cinput%20type%3D%22email%22%20id%3D%22email%22%20name%3D%22email%22%20placeholder%3D%22Your%20email..%22%20required%3E
+1. Testing tabs to make sure the elements are tab accessible.
+2. Images have alt text. 
+3. Colour contrast. Increased the colour contrast by changing the colour of the headings and making the background darker.
 
 
-ISSUE AND CODE TESTING
 
-FINDA A TUTOR PAGE
-I added some information in the findatutor javascript file. Specifically, a new tutor and code for also the book a lesson page. However, then the form on the find a tutor page stopped working. It did not display the tutors details. I thought it was because of the added javascript code. However, even when removed it still did not work. After quering with online AI support, the answer was that I had missed a comma between two items of the tutor array. Once this sorted the page worked again.
-
-BOOK A CLASS
-When click to select a specific lesson, a message confirming the booking comes up. However, when clicking okay the page threw an error. 
