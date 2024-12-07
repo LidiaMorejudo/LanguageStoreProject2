@@ -29,7 +29,7 @@ Additionally, the "Find Classes" page provides:
     * An interactive calendar displaying the regular session dates for 2025.
     * The calendar is a standout feature, showcasing a thoughtful design implemented with CSS and dynamic functionality powered by JavaScript to ensure accurate alignment of days, months, and dates.
 
-# ** Project Goals **    
+# **Project Goals**    
 
 The development of the Language School website is driven by a practical goal: to create a user-friendly platform that enhances the learning experience for both students and tutors. As a developer of language lessons and materials, I envision this site as a central hub where students and tutors can easily connect and manage lessons with flexibility and convenience.
 
@@ -90,18 +90,18 @@ This design ensures that the homepage is engaging and functional across all plat
 
 The Find a **Tutor page** is designed to help prospective students explore the tutors available at the Language School. This page aims to provide a simple yet effective way for students to:
 
-    1. View the list of tutors.
-    2. Learn about each tutor's background and expertise.
-    3. Narrow their search using an intuitive filter system.
+1. View the list of tutors.
+2. Learn about each tutor's background and expertise.
+3. Narrow their search using an intuitive filter system.
 
 **Key Functionality**
 
-    * **Search Form:** A simple form allows students to filter tutors based on:
+**Search Form:** A simple form allows students to filter tutors based on:
 
-        1. **Native Language:** Select the tutor’s native language.
-        2. **Level:** Choose the student’s language proficiency level.
+1. **Native Language:** Select the tutor’s native language.
+2. **Level:** Choose the student’s language proficiency level.
     
-    By selecting their preferences, students can easily find tutors whose profiles match their learning needs. This functionality ensures prospective students can make informed decisions when choosing a tutor.
+By selecting their preferences, students can easily find tutors whose profiles match their learning needs. This functionality ensures prospective students can make informed decisions when choosing a tutor.
 
 Wireframes
 Below are the wireframes for the Find a Tutor page, showcasing the layout and planned design:
@@ -112,19 +112,44 @@ Here are images showing how the Find a Tutor page is expected to look on various
 
 ![ Wireframes Find a Tutor](/images/imagesfindatutor.png)
 
-Find Spanish classes online planning, wireframes and images
 
-This page gives general information about the school and the classes, presenting an attractive image, and also provides more specific informationa bout when the classes are.
+## **Find Spanish Classes Online: Planning, Wireframes, and Images**
+
+**Purpose and Features**
+
+The **Find Spanish Classes Online** page serves as an informative and engaging resource for prospective students. It offers:
+
+1. **General Information:** An overview of the school and its offerings, giving visitors a clear understanding of the services provided.
+2. **Class Schedule:** Detailed information about when classes are available, ensuring students can easily find times that suit their needs.
+3. **Attractive Visuals:** A clean and modern design that enhances the user experience without overwhelming visitors.
+
+The design follows a minimalistic approach with tasteful, modern elements. The goal is to keep the focus on what’s important: the calendar and the key message about the school. By using subtle visuals and an organized layout, the page ensures that visitors can easily access the information they need without distraction.
+
+**Wireframes**
+
+Below are the wireframes illustrating the layout and design of the **Find Spanish Classes Online** page:
+
+
+The page's design features a high-quality image and minimalistic styling, ensuring a modern and appealing look that highlights the class schedule and school message effectively, without overwhelming the user.
 
 ![ Wireframes Find a Tutor](/images/imagesspanishclassesonline.png)
 
-Scrolling down the page prospective student will see a calendar for next year. This is a 12 month calendar, the user will see the information for one month, but by clicking on the left and right arrows will move to a different month.
+As users scroll down the page, prospective students will encounter a calendar for the upcoming year. This 12-month calendar displays one month at a time, and users can navigate between months by clicking the left and right arrows.
 
 ![ Wireframes Find a Tutor](/images/wireframespanishclassesonline.png)
 
-Contact WIREFRAMES
+# **Contact Page: Wireframes**
 
-Through this page prospective students can get in touch with the team for more information. The form will ask for basic contact information, name, phone number, email, level and there will be a free text box where the prospective student can type in further details or a question they would like answered. 
+The **Contact Us** page allows prospective students to reach out to the team for more information. The form includes fields to collect essential contact details, such as:
+
+* Name
+* Phone Number
+* Email
+* Language Level
+
+Additionally, there is a free **text box** where prospective students can provide further details or ask any questions they may have.
+
+This simple yet effective form ensures that students can easily get in touch with the team for any inquiries, fostering better communication and support.
 
 ![ Wireframes Find a Tutor](/images/wireframesgetintouch.png)
 
@@ -132,14 +157,33 @@ The contact page is essential for prospective students to get in touch and find 
 
 ![ Wireframes Find a Tutor](/images/imagescontact.png)
 
-Book a class WIREFRAMES
+## **Book a Class: Purpose and Functionality**
+
+The **Book a Class** page allows prospective students to submit a booking for their chosen class. On this page, students can:
+
+* Select their language level
+* Choose a preferred class time (time options will update based on the selected level)
+
+Once a student selects their desired class and time, they can click the Submit button. This will send their booking information to the school, who will then follow up with payment details. After submitting the form, the student will see a confirmation message explaining the next steps.
+
+This streamlined booking process makes it easy for students to reserve a spot in their desired class while ensuring they receive all necessary information regarding payment.
 
 ![ Wireframes Find a Tutor](/images/wireframespanishclassesonline.png)
 
-The purpose of this page is to allow prospective students to actively send a booking for their chosen class. They will pick their level and the time. When selecting a level, the options for the times will change to those for that level. 
-By clicking on submit the information would be sent to the school and they would get in touch with payment details. The student will see a message explaining this.
 
 ![ Wireframes Find a Tutor](/images/imagesbookingalesson.png)
+
+# **Future Additions**
+
+1. **Payment API Integration:**
+
+To streamline the booking process, we plan to introduce a payment API, allowing students to pay directly through the website. This will eliminate the need for the office to follow up with payment details, making the process quicker and more convenient.
+
+2. **Login Functionality:**
+
+A login page will be added for both students and tutors, providing personalized access to booking information, lesson history, and communication features. This will help enhance the user experience by offering greater control and accessibility for all users.
+
+
 
 ISSUES
 
