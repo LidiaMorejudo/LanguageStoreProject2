@@ -29,35 +29,86 @@ Additionally, the "Find Classes" page provides:
     * An interactive calendar displaying the regular session dates for 2025.
     * The calendar is a standout feature, showcasing a thoughtful design implemented with CSS and dynamic functionality powered by JavaScript to ensure accurate alignment of days, months, and dates.
 
-PLANNING 
+# ** Project Goals **    
 
-Homepage planning, wireframes, images & Rationnale
+The development of the Language School website is driven by a practical goal: to create a user-friendly platform that enhances the learning experience for both students and tutors. As a developer of language lessons and materials, I envision this site as a central hub where students and tutors can easily connect and manage lessons with flexibility and convenience.
 
-The homepage serves like the front door of hte language school. It needs to feel welcoming and attractive to new students. Making them feel like their goal of learning a language is accessible and somehow fun, moving away from old-fashion ways of learning a language. 
+While the current version is in its initial stages, the vision for the website includes several exciting future enhancements:
 
-This is why a sort of language game was selected for this introduction to the school. The game is based on the popular word game "Hangman". The traditional long sentences of this game have been changed into only words related to the topic of food. The words have been selected for their simplicity, so anybody starting off in the Spanish language would have come accross them already. 
+* **Integrated Booking and Payment System:** Enable students to book and pay for lessons directly through the site, potentially using a PayPal API or a similar payment gateway.
+User Accounts: Allow users to create personal accounts, where they can view, modify, or cancel bookings.
+* **Tutor Accounts:** Provide tutors with secure login access to manage student communications and bookings.
+* **Resource Database:** Develop a separate database of language-learning resources that students can purchase directly through the website.
 
-This is the wireframe for the front page. Showing the icon and the title, this version of the hangman game uses snowmen that lose parts if the student makes mistakes.
+This roadmap reflects the broader potential of the **Language School platform**, aiming to make language learning more accessible and seamless for everyone involved.
+
+# First Stages, the planning phase
+
+## **Homepage Design and Purpose**
+
+The homepage is the "front door" of the Language School, designed to feel welcoming and attractive to new students. The goal is to inspire confidence and excitement in prospective learners by conveying that language learning can be accessible, enjoyable, and far removed from outdated, rigid methods.
+
+# **Interactive Introduction: The Language Game**
+
+To create an engaging first impression, the homepage features a playful language game inspired by the popular "Hangman" word game. However, in this version:
+
+* **Game Focus:** The sentences have been replaced with simple, food-related Spanish words, ensuring that beginners are likely familiar with them.
+
+* **Theme:** Instead of traditional visuals, this game features a snowman losing parts for incorrect guesses, adding a lighthearted and unique touch.
+
+This interactive element reflects the school’s innovative and approachable teaching philosophy, emphasizing learning through fun and relatable methods.
+
+## **Wireframes for the Homepage**
+
+The following wireframes illustrate the planned layout and design of the homepage:
+
+1. **Desktop Version:**
+    The homepage includes an icon, title, and the interactive snowman-based hangman game. 
 
 ![ Wireframes Home Page](/images/wireframehomepage.png)
 
-I prepared also the wireframes with the expected look on mobile phones and tablets. In mobile phones the centre text should appear vertically. So, it should narrow on the sides and grow vertically to fit better in the screen and be more readable. On tablets it should appear horizontally as in the computer screen but smaller. 
+2. **Mobile and Tablet Versions:**
 
-This are the planning stages for the HOMEPAGE
+    * On mobile devices, the central text is vertically aligned, narrowing the sides and growing vertically for improved readability.
+    
+    * On tablets, the layout mirrors the desktop view but is scaled to fit smaller screens.
+
 
 ![ Wireframes Home Page Phones and Tablets](/images/wireframehomepagephonetablet.png)
 
-These are images of how the homepage would appear on different devices:
+## **Homepage Preview Across Devices**
+
+Here are images showing how the homepage is expected to look on various devices:
 
 ![ Images of homepage](/images/imageshomepage.png)
 
-Find a Tutor planning, wireframes, images & Rationnale
+This design ensures that the homepage is engaging and functional across all platforms, enhancing accessibility and usability for students and tutors alike.
 
-The second page is a Find a Tutor page. In this page prospective students can peruse the list of tutors. There is a simple form with options to select, native language and level. Selecting the preferred options will bring up the description of the tutor(s) that meet that criteria. The students can then have an idea of the background of the tutors working for the school.
+# **Find a Tutor: Planning, Wireframes, Images & Rationale**
+
+**Purpose and Features**
+
+The Find a **Tutor page** is designed to help prospective students explore the tutors available at the Language School. This page aims to provide a simple yet effective way for students to:
+
+    1. View the list of tutors.
+    2. Learn about each tutor's background and expertise.
+    3. Narrow their search using an intuitive filter system.
+
+**Key Functionality**
+
+    * **Search Form:** A simple form allows students to filter tutors based on:
+
+        1. **Native Language:** Select the tutor’s native language.
+        2. **Level:** Choose the student’s language proficiency level.
+    
+    By selecting their preferences, students can easily find tutors whose profiles match their learning needs. This functionality ensures prospective students can make informed decisions when choosing a tutor.
+
+Wireframes
+Below are the wireframes for the Find a Tutor page, showcasing the layout and planned design:
 
 ![ Wireframes Find a Tutor](/images/wireframefindatutor.png)
 
-These are the images of how the Find a Tutor page would appear on different devices:
+Here are images showing how the Find a Tutor page is expected to look on various devices:
 
 ![ Wireframes Find a Tutor](/images/imagesfindatutor.png)
 
