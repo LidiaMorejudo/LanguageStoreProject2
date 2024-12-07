@@ -1,14 +1,33 @@
-# LanguageStoreProject2
+# **LanguageStoreProject2**
 
-PURPOSE OF THE WEBSITE for the teachers running The Language Store
+## **What is this language school all about!**
 
-The purpose of this website "Language Store" is to promote the Spanish language teaching services of a group of teachers. The website has information about the tutors and the lessons available. Lessons can also be booked through it.
+The **"Language Store"** website is a hub for language enthusiasts, connecting passionate language teachers with students eager to learn. It serves two primary purposes:
 
-VALUE FOR THE PROSPECTIVE USERS
+1. **Promoting Services:** Showcasing the expertise of our tutors and the variety of lessons offered, attracting new students to join.
+2. **Supporting Current Students:** Providing a seamless platform for existing students to book lessons, explore new offerings, and stay connected.
 
-Current students can use the website to contact the school or their tutor, and also to book more lessons. People who are interested in learning Spanish as a foreign language can find information about the lessons delivered, as well as a bit more about the teachers' background. This can help them decide if they want to learn Spanish with this school or not.
+On the site, you’ll find detailed profiles of our tutors, descriptions of the lessons available, and a straightforward booking system to make scheduling lessons simple and hassle-free. 
 
-On the find classes page, there is some information regarding the school, and also a calendar showing the dates for regular sessions throughout the year 2025. The functionality of this calendar was built using CSS for the design and javascript to make the days and months match with the right date. 
+## **Value for prospective users**
+
+The "Language Store" website is designed to serve both current students and those considering learning Spanish as a foreign language. Here's what the site offers:
+
+    1. **For Current Students:**
+
+        * A convenient way to contact the school or their tutor.
+        * An easy-to-use booking system to schedule additional lessons.
+
+    2. **For Prospective Students:**
+
+        *Detailed information about available lessons, including the teaching approach and schedule.
+        *Insight into the backgrounds of our experienced tutors, helping them make an informed decision about learning Spanish with our school.
+
+Additionally, the "Find Classes" page provides:
+
+    * A description of the school and its teaching philosophy.
+    * An interactive calendar displaying the regular session dates for 2025.
+    * The calendar is a standout feature, showcasing a thoughtful design implemented with CSS and dynamic functionality powered by JavaScript to ensure accurate alignment of days, months, and dates.
 
 PLANNING 
 
