@@ -54,7 +54,12 @@ header nav ul li a {
 }
 
 .paragraph p {
-  margin-bottom: 2em; /* Adjusting space between paragraphs */
+    margin-bottom: 2em; /* Adjusting space between paragraphs */
+    font-size: 1rem; 
+    line-height: 1.8;  
+    font-family: 'Merriweather', serif; 
+    font-weight: 400; 
+    color: #333; 
 }
 
 body {
@@ -191,6 +196,34 @@ body {
   /* End of Index page */
 
 /*Find a tutor page */
+
+.centre-piece form label {
+  font-size: 1rem;
+  line-height: 1.8;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: #ff6600;
+}
+
+.centre-piece form .btn-primary {
+  width: 100%;
+  max-width: 80px; /* Limit the max width */
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  text-align: center; /* Center the text */
+}
+
+.centre-piece form .btn-primary:hover {
+  background-color: #cc5200; /* Darker shade for hover effect */
+}
+
 
 .tutor-image-container {
     width: 100px;
@@ -332,6 +365,15 @@ input[type=submitbooking]:hover {
 /*End of book a lesson page */
 
 /* Find classes page */
+
+#information-findclasses div {
+  font-size: 1rem; 
+  line-height: 1.8;  
+  font-family: 'Merriweather', serif; 
+  font-weight: 400; 
+  color: #333;
+  margin-bottom: 2em; /* Matches the paragraph styling */
+}
 
 #information-findclasses {
     display: flex;

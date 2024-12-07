@@ -254,5 +254,17 @@ Testing
 2. Images have alt text. 
 3. Colour contrast. Increased the colour contrast by changing the colour of the headings and making the background darker.
 
+## **Deployment**
+
+The site was deployed to Github pages as follows:
+
+1. In the Github repository, access the settings tab
+2. Go to Code and Automation and select Pages
+3. In the Build and Deployment section for Source, select Deploy from a branch from the drop-down list
+4. Select main from the branch drop-down list and save
+5. The link to the complete website appears at the top of the page
+6. This link can be provided to users who want to check it
+7. Once deployed the site will update automatically with any new pushes to the main branch
+
 
 

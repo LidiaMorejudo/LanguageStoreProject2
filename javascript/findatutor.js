@@ -80,9 +80,9 @@ function displayResults(results) {
           tutorDiv.classList.add('tutor');
 
           tutorDiv.innerHTML = `
-              <h2>Tutor's name: ${tutor.name}</h2>
-              <p>Native language: ${tutor.nativeLanguage}</p>
-              <p>Level taught: ${tutor.level.join(', ')}</p>
+              <h2>Tutor's name: <strong>${tutor.name}</strong></h2>
+              <p>Native language: <strong>${tutor.nativeLanguage}</strong></p>
+              <p>Level taught: <strong>${tutor.level.join(', ')}</strong></p>
               <p>Information about the tutor: ${tutor.info}</p>
                 <div class="tutor-image-container">
                 <img src="images/${tutor.image}" alt="${tutor.name}">
