@@ -257,6 +257,12 @@ Testing
 2. Images have alt text. 
 3. Colour contrast. Increased the colour contrast by changing the colour of the headings and making the background darker.
 4. Tested with https://validator.w3.org/
+* Errors encountered with the validator are shown below. These were simple errors where superfluous code or old code had been added. Once these removed the messages ceased to repeat.
+
+![ Wireframes Find a Tutor](/images/errors1.png)
+
+![ Wireframes Find a Tutor](/images/errors2.png)
+
 
 ## **Deployment**
 
