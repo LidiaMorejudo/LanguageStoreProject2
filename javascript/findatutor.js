@@ -142,11 +142,16 @@ function showAvailableTutors() {
   }
 }
 
+
 function bookClass(tutorName, level, day, time) {
-    try {
-        alert(`You have successfully booked a ${level} class with ${tutorName} on ${day} at ${time}.`);
-        // Stop here as we only need to show the confirmation message
-    } catch (error) {
-        console.error("Booking simulation error:", error); // Log error if any unexpected issue arises
-    }
+    // Construct the query string for booking details
+    const queryString = `?tutor=${encodeURIComponent(tutorName)}&level=${encodeURIComponent(level)}&day=${encodeURIComponent(day)}&time=${encodeURIComponent(time)}`;
+    
+    // Redirect to bookedtutor.html with booking details
+    window.location.href = `bookedtutor.html${queryString}`;
 }
+
+
+
+
+

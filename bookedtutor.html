@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/LanguageStoreLogo.png" alt="The Language Store Logo" id="logo">
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="find-a-tutor.html">Find a Tutor</a></li>
+                <li><a href="book-a-lesson.html">Book a Lesson</a></li>
+                <li><a href="time-table.html">Find Classes</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pagetitle">
+        <h1>Booking Confirmation</h1>
+    </div>
+
+    <div id="confirmation-message" class="containerbooking">
+        <!-- Booking message will be displayed here -->
+    </div>
+
+    <footer>
+        <p>&copy; The Language Store 2024 all rights reserved</p>
+    </footer>
+
+    <script>
+        // Parse query parameters from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const tutor = urlParams.get('tutor');
+        const level = urlParams.get('level');
+        const day = urlParams.get('day');
+        const time = urlParams.get('time');
+
+        // Display the confirmation message
+        const confirmationMessage = `
+            <p>Thank you for your booking. You have booked <strong>${tutor}</strong>, <strong>${level}</strong> class on <strong>${day}</strong> at <strong>${time}</strong>. The office will be in touch with payment details.</p>
+        `;
+        document.getElementById('confirmation-message').innerHTML = confirmationMessage;
+    </script>
+</body>
+</html>
