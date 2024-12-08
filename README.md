@@ -229,11 +229,14 @@ I added some new information to the findatutor.js file, including a new tutor an
 
 After seeking help from online AI support, I discovered that the issue was due to a missing comma between two items in the tutor array. Once I fixed this, the page functioned properly again, and the tutor details were displayed as expected.
 
+4. **Issue with Book a Class button**
+On the book a class page, I wanted to give the impression that this is a real booking page. Of course, in a project at this stage, there is no backend yet. So, when booking I wanted a message confirming the booking. However, I run into the issue that the message would not work. In the end, this was due to the form being set to "POST", while in fact, there is no backend, so the form was trying to post but there is nowhere to post. When I deleted this POST from method in the form, I was able to have a confirmation message.
+
 ## **Credits, Inspiration, and Sources Consulted**
 
 **Melting Snowman Game:**
 
-To make the website more engaging for prospective students and showcase the fun aspect of our language classes, I included a game related to Spanish learning. I used this tutorial from FreeCodeCamp as a foundation to create the Melting Snowman game.
+To make the website more engaging for prospective students and showcase the fun aspect of our language classes, I included a game related to Spanish learning. I used this tutorial from FreeCodeCamp as a foundation to create the Melting Snowman game.(https://www.freecodecamp.org/news/how-to-code-a-simple-game/)
 
 **Registration Form Tutorial:**
 
@@ -241,11 +244,11 @@ For the registration form on the website, I followed the instructions provided i
 
 **Dropdown List Creation:**
 
-For implementing dropdown lists dynamically, I referred to the guide on GeeksforGeeks to help create the dropdown options based on array values in JavaScript.
+For implementing dropdown lists dynamically, I referred to the guide on GeeksforGeeks to help create the dropdown options based on array values in JavaScript.(https://www.geeksforgeeks.org/how-to-create-a-dropdown-list-with-array-values-using-javascript/?ref=gcse_outind)
 
 **Creating a Dynamic Calendar:**
 
-To build the dynamic calendar on the website, I consulted this tutorial on GeeksforGeeks for guidance on creating a responsive and interactive calendar using HTML, CSS, and JavaScript.
+To build the dynamic calendar on the website, I consulted this tutorial on GeeksforGeeks for guidance on creating a responsive and interactive calendar using HTML, CSS, and JavaScript.(https://www.geeksforgeeks.org/how-to-create-a-dynamic-calendar-in-html-css-javascript/?ref=gcse_outind)
 
 
 Testing
@@ -253,6 +256,7 @@ Testing
 1. Testing tabs to make sure the elements are tab accessible.
 2. Images have alt text. 
 3. Colour contrast. Increased the colour contrast by changing the colour of the headings and making the background darker.
+4. Tested with https://validator.w3.org/
 
 ## **Deployment**
 

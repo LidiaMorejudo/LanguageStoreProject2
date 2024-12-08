@@ -8,6 +8,7 @@ const tutors = [
     image: 'JohnDoe.jpg',
     classes: [
         { level: 'Beginner', day: 'Tuesday', time: '6pm to 7pm' },
+        { level: 'Beginner', day: 'Tuesday', time: '3pm to 4pm' },
         { level: 'Conversation', day: 'Sunday', time: '3pm to 4pm' }
     ]
 },
@@ -27,29 +28,104 @@ const tutors = [
       nativeLanguage: 'English',
       level: ['Advanced', 'Conversation'],
       info: 'Pierre is a language enthusiast and experienced tutor who loves helping advanced students perfect their Spanish skills. With a strong command of both English and Spanish, he offers challenging conversation classes that push learners to achieve their highest potential. His dynamic teaching style makes every session both enjoyable and educational.',
-      image: 'PierreDupont.jpg'
+      image: 'PierreDupont.jpg',
+      classes: [
+        { level: 'Advanced', day: 'Thursday', time: '5pm to 6pm' },
+        { level: 'Conversation', day: 'Saturday', time: '1pm to 2pm' }
+    ]
   },
   {
       name: 'Belen Rueda',
       nativeLanguage: 'Spanish',
       level: ['Conversation'],
       info: 'Belen is a passionate language enthusiast and experienced tutor dedicated to helping students improve their Spanish conversation skills. As a native Spanish speaker, she provides an authentic learning experience that focuses on practical communication and cultural understanding. Her friendly and approachable teaching style ensures that students feel comfortable and confident while speaking Spanish.',
-      image: 'BelenRueda.jpg'
+      image: 'BelenRueda.jpg',
+      classes: [
+        { level: 'Conversation', day: 'Saturday', time: '5pm to 6pm' },
+        { level: 'Conversation', day: 'Saturday', time: '1pm to 2pm' }
+    ]
   },
   {
       name: 'Carmen Maura',
       nativeLanguage: 'Spanish',
       level: ['Conversation','Intermediate'],
       info: 'Carmen is a dedicated and experienced tutor with a deep love for the Spanish language. Her conversation classes are ideal for students who want to practice and enhance their speaking abilities in a natural, engaging setting. With her native proficiency and warm teaching approach, Carmen helps students gain the confidence and skills needed to communicate effectively in Spanish.',
-      image: 'CarmenMaura.jpg'
+      image: 'CarmenMaura.jpg',
+      classes: [
+        { level: 'Conversation', day: 'Saturday', time: '3pm to 4pm' },
+        { level: 'Conversation', day: 'Saturday', time: '2pm to 3pm' },
+        { level: 'Intermediate', day: 'Wednesday', time: '2pm to 3pm' }        
+    ]
   },
+
+  {
+    name: 'Elena Rodriguez',
+    nativeLanguage: 'English',
+    level: ['Beginner', 'Intermediate', 'Advanced', 'Conversation'],
+    info: 'Elena is a passionate and experienced tutor who specializes in building a strong foundation for beginners, guiding intermediates towards fluency, and challenging advanced learners to achieve excellence. Her interactive conversation classes focus on real-life scenarios, ensuring her students feel confident speaking Spanish in any situation.',
+    image: 'elenarodriguez.png',
+    classes: [
+      { level: 'Beginner', day: 'Tuesday', time: '9am to 10am' },
+      { level: 'Intermediate', day: 'Wednesday', time: '10am to 11am' },
+      { level: 'Advanced', day: 'Thursday', time: '11am to 12pm' },
+      { level: 'Conversation', day: 'Sunday', time: '4pm to 5pm' }
+    ]
+  },
+
+  {
+    name: 'Miguel Sanchez',
+    nativeLanguage: 'Spanish',
+    level: ['Beginner', 'Intermediate', 'Advanced', 'Conversation'],
+    info: 'Miguel brings years of teaching expertise to his classes, which are tailored to suit each student’s learning needs. He excels at helping beginners gain confidence, intermediates refine their skills, and advanced learners perfect their Spanish. His lively conversation classes are a favorite among his students.',
+    image: 'miguelsanchez.png',
+    classes: [
+      { level: 'Beginner', day: 'Tuesday', time: '11am to 12pm' },
+      { level: 'Intermediate', day: 'Wednesday', time: '1pm to 2pm' },
+      { level: 'Advanced', day: 'Thursday', time: '3pm to 4pm' },
+      { level: 'Conversation', day: 'Sunday', time: '5pm to 6pm' }
+    ]
+  },
+
+  {
+    name: 'Isabel Morales',
+    nativeLanguage: 'Spanish',
+    level: ['Beginner', 'Intermediate', 'Advanced', 'Conversation'],
+    info: 'Isabel is a highly skilled language tutor who enjoys helping students of all levels master Spanish. She creates a positive learning environment where beginners feel encouraged, intermediates are motivated, and advanced learners are challenged. Her conversation classes emphasize cultural context and practical fluency.',
+    image: 'isabelmorales.png',
+    classes: [
+      { level: 'Beginner', day: 'Tuesday', time: '2pm to 3pm' },
+      { level: 'Intermediate', day: 'Wednesday', time: '3pm to 4pm' },
+      { level: 'Advanced', day: 'Thursday', time: '4pm to 5pm' },
+      { level: 'Conversation', day: 'Sunday', time: '6pm to 7pm' }
+    ]
+  },
+
+  {
+    name: 'Luis Fernandez',
+    nativeLanguage: 'Spanish',
+    level: ['Beginner', 'Intermediate', 'Advanced', 'Conversation'],
+    info: 'Luis is an engaging and dynamic tutor who loves sharing his knowledge of Spanish with learners of all levels. His classes are interactive and personalized, designed to help beginners get started, intermediates progress, and advanced students excel. His conversation classes are particularly focused on everyday communication.',
+    image: 'luisfernandez.png',
+    classes: [
+      { level: 'Beginner', day: 'Tuesday', time: '3pm to 4pm' },
+      { level: 'Intermediate', day: 'Wednesday', time: '4pm to 5pm' },
+      { level: 'Advanced', day: 'Thursday', time: '5pm to 6pm' },
+      { level: 'Conversation', day: 'Sunday', time: '7pm to 8pm' }
+    ]
+  },  
   
   {
     name: 'Pepita Pulgarcita',
     nativeLanguage: 'Spanish',
     level: ['Conversation','Beginner','Intermediate'],
-    info: 'Carmen is a dedicated and experienced tutor with a deep love for the Spanish language. Her conversation classes are ideal for students who want to practice and enhance their speaking abilities in a natural, engaging setting. With her native proficiency and warm teaching approach, Carmen helps students gain the confidence and skills needed to communicate effectively in Spanish.',
-    image: 'CarmenMaura.jpg'
+    info: 'Pepita Pulgarcita is a dedicated and experienced tutor with a deep love for the Spanish language. Her conversation classes are ideal for students who want to practice and enhance their speaking abilities in a natural, engaging setting. With her native proficiency and warm teaching approach, Carmen helps students gain the confidence and skills needed to communicate effectively in Spanish.',
+    image: 'pepitapulgarcita.png',
+    classes: [
+      { level: 'Beginner', day: 'Tuesday', time: '3pm to 4pm' },
+      { level: 'Beginner', day: 'Tuesday', time: '1pm to 2pm' },
+      { level: 'Conversation', day: 'Saturday', time: '2pm to 3pm' },
+      { level: 'Intermediate', day: 'Wednesday', time: '2pm to 3pm' }        
+  ]
 }
 ];
 
@@ -142,14 +218,23 @@ function showAvailableTutors() {
   }
 }
 
-
 function bookClass(tutorName, level, day, time) {
-    // Construct the query string for booking details
-    const queryString = `?tutor=${encodeURIComponent(tutorName)}&level=${encodeURIComponent(level)}&day=${encodeURIComponent(day)}&time=${encodeURIComponent(time)}`;
-    
-    // Redirect to bookedtutor.html with booking details
-    window.location.href = `bookedtutor.html${queryString}`;
+    // Create a confirmation message with the booking details
+    const confirmationMessage = `
+        Thank you for your booking.
+        The office will contact you with payment details:
+        Tutor: ${tutorName}
+        Level: ${level}
+        Day: ${day}
+        Time: ${time}
+    `;
+
+    // Display the confirmation message as an alert
+    alert(confirmationMessage);
 }
+
+
+
 
 
 
