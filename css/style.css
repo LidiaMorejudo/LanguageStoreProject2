@@ -38,7 +38,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black
+    color: black;
     text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ body {
 
 .tutor-image-container img {
     width: 100%;
-    height: auto
+    height: auto;
     max-width: 100%;
 }
 
@@ -431,7 +431,7 @@ input[type=submitbooking]:hover {
 #timetable th, 
 #timetable td {
     width: 14.28%;
-    height: 50 %;
+    height: 50%;
 }
 
 .pagetitle {
