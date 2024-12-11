@@ -250,6 +250,15 @@ For implementing dropdown lists dynamically, I referred to the guide on Geeksfor
 
 To build the dynamic calendar on the website, I consulted this tutorial on GeeksforGeeks for guidance on creating a responsive and interactive calendar using HTML, CSS, and JavaScript.(https://www.geeksforgeeks.org/how-to-create-a-dynamic-calendar-in-html-css-javascript/?ref=gcse_outind)
 
+**Sites consulted for the development or to learn more**
+
+1. (https://www.geeksforgeeks.org/how-to-create-a-dropdown-list-with-array-values-using-javascript/)
+2. (https://www.geeksforgeeks.org/how-to-create-a-dynamic-calendar-in-html-css-javascript/)
+3. (https://calendarwizard.sourceforge.net/examples/11_12MonthMultiStyled/calendar01.png)
+6. (https://www.webdevolution.com/blog/javascript-get-current-month)
+7. (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+8. (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 
 Testing
 
@@ -257,11 +266,28 @@ Testing
 2. Images have alt text. 
 3. Colour contrast. Increased the colour contrast by changing the colour of the headings and making the background darker.
 4. Tested with https://validator.w3.org/
+
 * Errors encountered with the validator are shown below. These were simple errors where superfluous code or old code had been added. Once these removed the messages ceased to repeat.
 
 ![ Wireframes Find a Tutor](/images/errors1.png)
 
 ![ Wireframes Find a Tutor](/images/errors2.png)
+
+
+* Some errors were encountered in the CSS code, mostly due to forgotten semicolons. These were fixed.
+
+![ Wireframes Find a Tutor](/images/csserrors.png)
+
+## **Tested on different devices**
+
+I tested the website on my apple devices, mobile phone, laptop and iPad, and used www.browserstack.com to test on Android devices.
+
+## **Form Error Handling**
+
+There are two forms on the site to be used to find tutors' details and also booking lessons.
+1. On the form on the Find a tutor page, the form contains two dropdown lists. The site will return a list of tutors even if only one option of one list is selected. If an item of both lists is selected the filter will be more specific, of course.
+2. On the form on the booking a tutor, if one of the fields is not completed the site will remind the user to complete the field before the booking can be made. At the moment, when clicking on the booking button a message is fired informing the user that the booking has been made. The future development would include a real booking with payment through an API to paypal, for instance.
+3. The form to contact us, is a more straightforward contact form, which will remind the user if one of the compulsory fields has not been completed.
 
 
 ## **Deployment**
