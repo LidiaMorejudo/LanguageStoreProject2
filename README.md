@@ -1,4 +1,9 @@
-# **LanguageStoreProject2**
+# **Language Store Project**
+
+## **View Project Here**
+
+[Visit the Language Store Project](https://lidiamorejudo.github.io/LanguageStoreProject2/)
+
 
 ## **What is this language school all about!**
 
@@ -277,6 +282,22 @@ Testing
 * Some errors were encountered in the CSS code, mostly due to forgotten semicolons. These were fixed.
 
 ![ Wireframes Find a Tutor](/images/csserrors.png)
+
+## **Debugging and Future Developments**
+
+**JSHint and JavaScript**
+
+While running JSHint on the project, it highlighted several points that are worth noting:
+
+1. ES6 Syntax Compatibility: JSHint flagged the use of ES6 syntax, which is the latest version of JavaScript. Although older browsers may not fully support ES6, the majority of modern browsers have adopted it. Given that this project is intended for modern environments, I decided to keep the ES6 code. For projects that require compatibility with older browsers, tools like Babel can be used to transpile the code back to ES5.
+
+2. Unused Variables: JSHint pointed out two unused variables: showAvailableTutors and bookClass. These variables are, in fact, used in one of the HTML pages. While it's generally a good practice to separate JavaScript and HTML, this is a small project where the code serves its purpose, so I opted to leave it as is for now. However, for future development, I will consider restructuring the project to properly separate concerns.
+
+3. Functions within Loops: A warning was raised about declaring functions within loops, particularly in relation to the MeltingSnowman file. JSHint cautioned that referencing an outer scoped variable within a function declared inside a loop can lead to confusing semantics. In this case, I used an arrow function in the button.addEventListener('click', () => handleGuess(letter));. This approach does not interfere with other variables, so I decided to retain it for this project.
+
+4. Unused Variable in Timetable: In the timetable code, JSHint identified an unused variable, lesson, which I initially created to be used later. However, as I changed the project structure, this variable became unnecessary. Since it wasn’t being used anywhere, I have removed it.
+
+
 
 ## **Tested on different devices**
 

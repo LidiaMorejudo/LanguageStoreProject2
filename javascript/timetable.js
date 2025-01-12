@@ -70,10 +70,7 @@ nextButton.addEventListener('click', () => {
 // Initialize the display
 updateCalendar();
 
-// Array of lesson names
-const lesson = [
-    "Beginner", "Intermediate", "Advanced", "Conversation"
-];
+
 
 
 

@@ -1,3 +1,4 @@
+
 // Dictionary containing words and their definitions
 const wordsWithDefinitions = {
   'PATATA': 'A starchy plant tuber which is one of the most important food crops, cooked and eaten as a vegetable.',
@@ -46,13 +47,12 @@ function initializeGame() {
   }
 
   // Generate the letter buttons
+  /* eslint-disable no-loop-func */
   for (let i = 0; i < 26; i++) {
     const letter = String.fromCharCode(65 + i);
     const button = document.createElement('button');
     button.innerText = letter;
-    button.addEventListener('click', function () {
-      handleGuess(letter);
-    });
+    button.addEventListener('click', () => handleGuess(letter));
     lettersContainer.appendChild(button);
   }
 
