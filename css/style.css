@@ -42,6 +42,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a:hover {
+  color: #cc5200; /* Slightly darker orange for hover effect */
+}
+
 
 #logo {
     height: 50px;
