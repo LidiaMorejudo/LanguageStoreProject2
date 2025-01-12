@@ -2,10 +2,9 @@
 
 ## **View Project Here**
 
-[Visit the Language Store Project](https://lidiamorejudo.github.io/LanguageStoreProject2/)
+[Opens on the same tab. Right click to open on a new tab.](https://lidiamorejudo.github.io/LanguageStoreProject2/)
 
-
-## **What is this language school all about!**
+## **What is this language school all about! Introduction to the project**
 
 The **"Language Store"** website is a hub for language enthusiasts, connecting passionate language teachers with students eager to learn. It serves two primary purposes:
 
@@ -46,6 +45,13 @@ User Accounts: Allow users to create personal accounts, where they can view, mod
 * **Resource Database:** Develop a separate database of language-learning resources that students can purchase directly through the website.
 
 This roadmap reflects the broader potential of the **Language School platform**, aiming to make language learning more accessible and seamless for everyone involved.
+
+# **User Experience UX**
+
+1. Users want to learn Spanish and want to find information about when, who and how much quickly.
+2. Users do not want a complicated site with lots of distracting images and irrelevant information.
+3. Users want to have a clear menu so they can easily find out when lessons are, how much they are and who are the tutors.
+4. Users want to be able to book lessons easily and communicate with the school easily.
 
 # First Stages, the planning phase
 
@@ -237,15 +243,32 @@ After seeking help from online AI support, I discovered that the issue was due t
 4. **Issue with Book a Class button**
 On the book a class page, I wanted to give the impression that this is a real booking page. Of course, in a project at this stage, there is no backend yet. So, when booking I wanted a message confirming the booking. However, I run into the issue that the message would not work. In the end, this was due to the form being set to "POST", while in fact, there is no backend, so the form was trying to post but there is nowhere to post. When I deleted this POST from method in the form, I was able to have a confirmation message.
 
-## **Credits, Inspiration, and Sources Consulted**
+## **Design** 
+
+**Typography**
+The main fonts on this site are from the Merriwheather family of Google fonts.
+
+**Wireframes**
+All wireframes were created using balsamiq. Images of these wireframes can be viewed above in the section "wireframes".
+
+**Languages Used**
+
+HTML5
+CSS3
+Javacript
+
+**Frameworks, Libraries & Programs Used**
+
+Google Fonts: Primarily the Merriwheather font family for all text across the webpage
+Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+GitHub: GitHub is used to store the projects code after being pushed from Git.
+
+
+## **Sources Consulted**
 
 **Melting Snowman Game:**
 
 To make the website more engaging for prospective students and showcase the fun aspect of our language classes, I included a game related to Spanish learning. I used this tutorial from FreeCodeCamp as a foundation to create the Melting Snowman game.(https://www.freecodecamp.org/news/how-to-code-a-simple-game/)
-
-**Registration Form Tutorial:**
-
-For the registration form on the website, I followed the instructions provided in this tutorial to help create the form’s structure and functionality.
 
 **Dropdown List Creation:**
 
@@ -264,8 +287,13 @@ To build the dynamic calendar on the website, I consulted this tutorial on Geeks
 7. (https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 8. (https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+## **Developments Tools**
 
-Testing
+Lighthouse results
+
+![ Wireframes Find a Tutor](/images/LightHouse.png)
+
+## **Testing**
 
 1. Testing tabs to make sure the elements are tab accessible.
 2. Images have alt text. 
@@ -301,15 +329,25 @@ While running JSHint on the project, it highlighted several points that are wort
 
 ## **Tested on different devices**
 
-I tested the website on my apple devices, mobile phone, laptop and iPad, and used www.browserstack.com to test on Android devices.
+I tested the website on my apple devices, mobile phone, laptop and iPad, and used [browerstack]www.browserstack.com to test on Android devices.
 
 ## **Form Error Handling**
 
 There are two forms on the site to be used to find tutors' details and also booking lessons.
+
 1. On the form on the Find a tutor page, the form contains two dropdown lists. The site will return a list of tutors even if only one option of one list is selected. If an item of both lists is selected the filter will be more specific, of course.
 2. On the form on the booking a tutor, if one of the fields is not completed the site will remind the user to complete the field before the booking can be made. At the moment, when clicking on the booking button a message is fired informing the user that the booking has been made. The future development would include a real booking with payment through an API to paypal, for instance.
 3. The form to contact us, is a more straightforward contact form, which will remind the user if one of the compulsory fields has not been completed.
 
+## **Development process**
+
+1. I started my project by planning what it is I wanted to achieve with each page, and did not use a template. I created my own files and structure.
+2. I regularly staged my changes, first checking the changes created using the git status command.
+3. After checking the changes were listed correctly I used the command git add *.
+4. To create the comment to explain the changes introduced, I typed the command git commit -m "comment explaining changes".
+5. The last step would be to upload the changes into the repository in Github with the command git push.
+6. When the changes are uploaded to Github the deployed webpage displayes the latest version. 
+7. It is important to note that an added step in this process was to open a new terminal each time I was to upload any changes to Github. Without opening a new terminal I found that my Gitpod would not connect to Github, even if I had previously connected succesfully to it using python -m http.server 8000 and git status. 
 
 ## **Deployment**
 
@@ -322,6 +360,19 @@ The site was deployed to Github pages as follows:
 5. The link to the complete website appears at the top of the page
 6. This link can be provided to users who want to check it
 7. Once deployed the site will update automatically with any new pushes to the main branch
+
+## **Credits**
+
+**Code**
+1.Favicon.io a Favicon image was used for the favicon tab.
+2.General coding tips helped by W3School
+3.Chat GPT helped explaining into layman's terms complicated technical concepts.
+4.Geeksforgeeks helped through their forums and questions already asked.
+5. Freecode camp helped with inspiration for the Snowman Game.
+
+
+**Acknowledgments**
+Special thanks to my Tutors, Miguel & Kachi, for their help and guidance throughout this project.
 
 
 
